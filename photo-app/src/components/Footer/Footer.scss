@@ -1,0 +1,20 @@
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    &__icon i{
+        font-size: 55px;
+        padding-right: 25px;
+        color: #A9A9A9;
+        &:hover{
+            transform:scale(1.1);
+            color: #FF7F50;
+        }
+    }
+    &__copyright{
+        font-size: 25px;
+        span{
+            font-weight: bold;
+            color: #FF7F50;    
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.navbar{
+    text-align: center;
+    // background: fixed;
+    // z-index: 1000;
+    background: linear-gradient(to left, #f83600 0%, #f9d423 100%);
+    i{
+        &:hover{
+            transform:scale(1.2);
+            transition: all 0.2s;
+            color: yellow;
+        }
+    }
+    &__icon i{
+        font-size: 40px;
+        padding: 10px;
+        color: #A9A9A9;
+        transition: all 0.2s;
+       
+    }
+    &__phone,&__mail{
+        font-size: 20px;
+        i{
+            color: #a9a9a9;
+            font-size: 22px;
+        }
+    }
+}
